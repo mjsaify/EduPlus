@@ -1,0 +1,12 @@
+{
+  "name": "eduplus",
+  "version": "1.0.0",
+  "description": "institute managment system api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch --env-file=.env index.js"
+  },
+  "type": "module",
+  "author": "MJ",
+  "license": "ISC"
+}
