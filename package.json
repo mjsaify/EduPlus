@@ -1,7 +1,7 @@
 {
-  "name": "eduplus",
+  "name": "shopease",
   "version": "1.0.0",
-  "description": "institute managment system api",
+  "description": "ShopEase an E-commerce Node.js Api",
   "main": "index.js",
   "scripts": {
     "dev": "node --watch --env-file=.env index.js"
