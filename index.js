@@ -1,10 +1,3 @@
-// Uncaught Exception error
-process.on('uncaughtException', (err) => {
-    console.error("Uncaught Exception! Shutting down...");
-    console.error(err.name, err.message);
-    process.exit(1);
-});
-
 import { app } from "./app.js";
 import { connectDB } from "./config/db.js";
 import { PORT } from "./constant.js";
