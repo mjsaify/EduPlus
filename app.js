@@ -2,7 +2,7 @@ import Express from 'express';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import ApiError from './utils/ApiError.js';
-import GlobalErrorHandler from './utils/ApiError.js'
+import GlobalErrorHandler from './controllers/error.controller.js';
 import { CLIENT_URI } from './constant.js';
 import router from './routes/index.js';
 

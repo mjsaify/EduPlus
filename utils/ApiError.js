@@ -5,6 +5,7 @@ class ApiError extends Error {
         this.message = message;
         this.status = this.statusCode >= 400 && this.statusCode <= 499 ? 'fail' : 'error';
         this.isOperational = true;
+        this.success = false;
         Error.captureStackTrace(this, this.constructor);
     };
 };
