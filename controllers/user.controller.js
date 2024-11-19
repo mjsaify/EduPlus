@@ -78,9 +78,3 @@ export const UserLogin = asyncHandler(async (req, res, next) => {
         .cookie("accessToken", accessToken, COOKIE_OPTION)
         .json(new ApiResponse(200, { loggedInUser }, "Welcomback User"));
 });
-
-export const UpdateUser = asyncHandler(async (req, res, next) => {
-    return res
-        .status(200)
-        .json(new ApiResponse(200, { user: "user" }, "Your Information is Updated"));
-});
